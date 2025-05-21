@@ -1,12 +1,14 @@
 # Sujet-2
-Script de craquage de mot de passe
-# Crackage de hash avec dictionnaire
+# Générateur de dictionnaire et Crackage de mot de passe
 
-##  Objectif
+Projet réalisé dans le cadre du **devoir de cybersécurité** sur Kali Linux.
 
-Ce script permet de **craquer un mot de passe haché** en testant les mots d’un dictionnaire contre le hash cible, via différents algorithmes (MD5, SHA1, SHA256).
+Ce dépôt contient :
 
-##  Utilisation
+1. Un **générateur de dictionnaire** personnalisable (`generateur_dictionnaire.py`)
+2. Un **script de crackage de hash** avec dictionnaire (`crackage_hash.py`)
+3. Un **outil de hashage de mot de passe** (`hasher.py`)
 
-```bash
-python crackage_hash.py <dictionnaire.txt> <hash> <algorithme>
+---
+
+## Structure des fichiers
